@@ -1,7 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
+import { ThemeProvider } from "@material-ui/core";
 
-function App() {
-  return <div className="App">Hi</div>;
+import NavBar from "./NavBar";
+
+class App extends Component {
+  render() {
+    return (
+      <ThemeProvider>
+        <NavBar />
+      </ThemeProvider>
+    );
+  }
 }
 
 export default App;
