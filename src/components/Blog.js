@@ -15,7 +15,7 @@ import NavBar from "./NavBar";
 const useStyles = makeStyles((theme) => ({
   introImg: {
     backgroundImage: `linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), 
-      url(${require("../assets/background-image-bridge.jpg")})`,
+      url(https://memefactorynew.s3.ap-northeast-2.amazonaws.com/background-image-bridge.jpg)`,
     height: "500px",
     backgroundSize: "cover",
     backgroundPosition: "center",
@@ -50,18 +50,21 @@ const useStyles = makeStyles((theme) => ({
 const ACTIVITIES = [
   {
     title: "Coding",
-    img: require("../assets/card-image-coding.jpg"),
+    img:
+      "https://memefactorynew.s3.ap-northeast-2.amazonaws.com/card-image-coding.jpg",
     desc: "Time flies when I code. I want to get better.",
   },
   {
     title: "Piano",
-    img: require("../assets/card-image-piano.jpg"),
+    img:
+      "https://memefactorynew.s3.ap-northeast-2.amazonaws.com/card-image-piano.jpg",
     desc:
       "Piano is my fav hobby. My favorite composers are Debussy and Chopin.",
   },
   {
     title: "Sleep",
-    img: require("../assets/card-image-sleep.jpg"),
+    img:
+      "https://memefactorynew.s3.ap-northeast-2.amazonaws.com/card-image-sleep.jpg",
     desc: "I love sleeping.",
   },
 ];
