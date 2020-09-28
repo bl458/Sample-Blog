@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { ThemeProvider } from "@material-ui/core";
 
-import NavBar from "./NavBar";
+import Blog from "./Blog";
 
 class App extends Component {
   render() {
     return (
       <ThemeProvider>
-        <NavBar />
+        <Blog />
       </ThemeProvider>
     );
   }
